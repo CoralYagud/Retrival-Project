@@ -30,7 +30,9 @@ PageRank scores are calculated based on page connectivity (anchor text) and stor
 # Ranking Functions:
 
 Two ranking functions, BM25 and Dot Product Similarity, are implemented to evaluate effectiveness in information retrieval. BM25 is chosen for its ability to handle term frequency variations and sparse queries.
-Query Processing and Retrieval
+
+# Query Processing and Retrieval:
 Queries are standardized similar to operations on indexes. Retrieval function uses ranking function (BM25/Dot Product Similarity) and PageRank to determine final ranking and retrieve relevant pages.
-Experiments and Results
+
+# Experiments and Results:
 Evaluation is performed on train set using BM25 ranking function. Results are analyzed based on average latency, average quality of results, and precision metrics (precision@5, precision@10, F1@30).
